@@ -2,8 +2,8 @@
 
 ## Team Members
 
-- [Addy Geniz](https://github.com/Addygeniz)
-- [Gabrielle Meyer](https://github.com/Gabriellemeyer)
+- [Autum Darrell](https://github.com/BreezyAutum)
+- [Ashlyn Knox](https://github.com/ashx3s/css-refactor-collab-starter.git)
 
 ---
 
