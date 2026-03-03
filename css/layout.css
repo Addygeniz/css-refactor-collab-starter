@@ -7,32 +7,31 @@
   box-sizing: border-box;
 }
 
-body {
+body{
   margin: 0;
   padding: 0;
 }
 
-ul,
-ol {
+ul, ol{
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-img {
+img{
   max-width: 100%;
   display: block;
 }
 
 /* --- containers --- */
 
-.container {
+.container{
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
-.container--narrow {
+.container--narrow{
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1.5rem;
@@ -43,33 +42,20 @@ img {
    is identical and does nothing. Give it a smaller max-width (around 680px). */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.wrapper {
+.wrapper{
   max-width: 800px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
-.inner {
+.inner{
   padding: 2rem;
   margin: 0 auto;
 }
 
 /* --- header --- */
 
-.site-header {
+.site-header{
   background-color: #7a1f3d;
   color: #ffffff;
   position: sticky;
@@ -77,24 +63,24 @@ img {
   z-index: 100;
 }
 
-.site-header .container {
+.site-header .container{
   height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.site-logo {
+.site-logo{
   font-size: 2rem;
   margin: 0;
 }
 
-.site-nav ul {
+.site-nav ul{
   display: flex;
   gap: 2rem;
 }
 
-.site-nav a {
+.site-nav a{
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
@@ -102,26 +88,25 @@ img {
   text-transform: uppercase;
 }
 
-.site-nav a:hover {
+.site-nav a:hover{
   color: #c9a84c;
 }
 
 /* --- sections --- */
 
-.section {
+.section{
   padding: 4rem 0;
 }
 
-.section--white {
+.section--white{
   background-color: #ffffff;
 }
 
-.section--offwhite
-{
+.section--offwhite{
   background-color: #faf8f4;
 }
 
-.section--dark {
+.section--dark{
   background-color: #7a1f3d;
   color: #ffffff;
 }
@@ -136,16 +121,16 @@ img {
   height: 480px;
   display: flex;
   align-items: center;
-   justify-content: center;
+  justify-content: center;
   text-align: center;
   border-bottom: 4px solid #c9a84c;
 }
 
-.hero-content h1 {
+.hero-content h1{
   color: #c4b590;
 }
 
-.hero-tagline {
+.hero-tagline{
   color: #4a4540;
   font-style: italic;
   margin-bottom: 2rem;
@@ -153,7 +138,7 @@ img {
 
 /* --- page hero (contact.html) --- */
 
-.page-hero {
+.page-hero{
   background-color: #7a1f3d;
   color: #ffffff;
   padding: 4rem 0;
@@ -168,7 +153,7 @@ img {
 
 /* --- card grid --- */
 
-.card-grid {
+.card-grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
@@ -181,7 +166,7 @@ img {
 
 /* --- faq --- */
 
-.faq-list {
+.faq-list{
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -190,14 +175,14 @@ img {
 
 /* --- footer --- */
 
-.site-footer {
+.site-footer{
   background-color: #1e1a17;
   color: #9e9890;
   padding: 2.5rem 0;
   font-size: 0.875rem;
 }
 
-    .site-footer .container {
+.site-footer .container{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -212,17 +197,17 @@ img {
   gap: 1.5rem;
 }
 
-.footer-nav a {
+.footer-nav a{
   color: #9e9890;
   text-decoration: none;
 }
 
-.footer-nav a:hover {
+.footer-nav a:hover{
   color: #c9a84c;
 }
 
 /* this rule does the same thing as .footer-nav a above but with higher specificity */
-.site-footer .footer-nav ul li a {
+.site-footer .footer-nav ul li a{
   color: #9e9890;
   text-decoration: none;
 }

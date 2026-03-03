@@ -16,9 +16,7 @@ p{
 
 /* --- headings --- */
 
-h1,
-h2,
-h3{
+h1, h2, h3{
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 700;
   line-height: 1.2;
@@ -26,32 +24,31 @@ h3{
   color: #1e1a17;
 }
 
-h1 {
+h1{
   font-size: clamp(2rem, 5vw, 3rem);
 }
 
-h2 {
+h2{
   font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
-    h3 {
-    font-family: "Playfair Display", Georgia, serif;
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 0.75rem;
-    color: #1e1a17;
-    }
+h3{
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+  color: #1e1a17;
+}
 
 /* --- links --- */
 
-a {
+a{
   color: #7a1f3d;
   text-decoration: underline;
 }
 
-a :hover
-{
+a :hover{
   color: #a07830;
 }
 
@@ -60,7 +57,7 @@ a :hover
 
 /* --- blockquote --- */
 
-blockquote {
+blockquote{
   font-family: "Playfair Display", Georgia, serif;
   font-style: italic;
   color: #4a4540;
@@ -83,15 +80,12 @@ blockquote cite{
 
 /* --- lists --- */
 
-ul,
-ol
-{
+ul,ol{
   padding-left: 1.5rem;
   margin-bottom: 1rem;
 }
 
-li
-{
+li{
   margin-bottom: 0.25rem;
 }
 
