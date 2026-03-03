@@ -157,9 +157,6 @@
   flex-direction: row; /* put checkbox and label side by side */
   align-items: flex-start; /* align to top in case label wraps */
   gap: 0.625rem; /* space between checkbox and label */
-}
-
-.form-group--checkbox input[type="checkbox"]{
   width: 1rem; /* fixed size */
   height: 1rem; /* fixed size */
   flex-shrink: 0; /* don't let it squish */
